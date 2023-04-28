@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse rental services</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+        body{
+            font-family: "Trirong", serif;
+        }
+
+        form{
+            margin: auto;
+            width: 200px;
+            text-align: center;
+        }
+
+        header{
+            position: sticky;
+            top: 0px;
+            margin-bottom: 30px;
+            height: 120px;
+            border-bottom: 2px black solid;
+            background-color: white;
+        }
+
+        nav{
+            float: right;
+        }
+
+        footer{
+            height: 250px;
+            background-color: black;
+            color: white;
+            padding: 25px;
+        }
+
+        #header-icon{
+            float: left;
+        }
+
+        #information{
+            margin: auto;
+            width: 450px;
+            height: 280px;
+            text-align: center;
+        }
+
+        #video{
+            margin: auto;
+            width: 360px;
+        }
+
+        #selections{
+            margin: auto;
+            margin-top: 50px;
+            width: 900px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+
+        .selection{
+            text-align: center;
+            width: 290px;
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header-icon">
+            <img src="horse.png" style="width:100px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#information" class="navItem">About Us</a></li>
+                <li><a href="#video" class="navItem">Horse Race</a></li>
+                <li><a href="#selections" class="navItem">Our Horses</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <input id="email" name="email" type="email" placeholder="Email">
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    <div class="main">
+        <section id="information">
+            <h2>Rent quality horses!</h2>
+            <p>
+                Tired of renting low quality horses that break down all the 
+                time and always run out of gas? You can now rent high 
+                quality horses which never run out of gas. Wanna know why? 
+                because they're horses you idiot horses don't run out of gas🙄
+            </p>
+        </section>
+        <section id="video">
+            <iframe width="350" height="300" src="https://www.youtube.com/embed/F0iK_1jJZgg"></iframe>
+        </section>
+        <section id="selections">
+            <div class="selection">
+                <h3>High quality horse one</h3>
+                <h4>$50</h4>
+                <button class="buy">Buy</button>
+            </div>
+            <div class="selection">
+                <h3>High quality horse two</h3>
+                <h4>$150</h4>
+                <button class="buy">Buy</button>
+            </div>
+            <div class="selection">
+                <h3>Gas horse</h3>
+                <h4>$60 + $5^($1.25*t) where t = hours used rounded to nearest millionth</h4>
+                <button class="buy">Buy</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <a href="">hi</a>
+    </footer>
+</body>
+</html>
